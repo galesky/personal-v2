@@ -1,22 +1,24 @@
+<!DOCTYPE html>
 <head>
+  <meta charset=UTF-8">
   <title>Leonardo Galesky - Software Engineer</title>
   <meta
     name="description"
     content="Leonardo Galesky - A software engineer's personal website "
   />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta charset=UTF-8">
   <link
     href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
     rel="stylesheet"
   />
-  <link href="./styles.css" rel="stylesheet" />
   <link
     rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
     crossorigin="anonymous"
+    async
   />
+  <link href="./styles.css" rel="stylesheet" />
 </head>
 <html lang="en">
   <div class="container">
@@ -24,9 +26,7 @@
       <section>
         <div class="row section-padding">
           <div class="col-md-12">
-            <p class="red-text section-tag">
-              Hello, my name is
-            </p>
+            <p class="red-text section-tag">Hello, my name is</p>
             <h1 class="main-title">Leonardo Galesky</h1>
           </div>
         </div>
@@ -34,13 +34,18 @@
           <div class="col-md-6">
             <p class="dark-grey">
               I'm Leonardo, an engineer based in Brazil, I love coding and
-              building things, to me Software is Art.<br /><br />
-              I've been coding since I was a teenager, my recent projects have
-              been focused on JavaScript + Typescript, Python, and Mongo. I also
-              study and play with other languages such as Rust and Java and am
-              eager to learn more.
+              building things. Software is Art.<br /><br />
+              I've started coding as teenager and never stopped. My recent
+              projects have been focused on JavaScript + Typescript, Python, and
+              Mongo. I also study and play with other languages such as Rust and
+              Java and am eager to learn more.
             </p>
-            <img src="./assets/github-1.svg" />
+            <a href="https://github.com/galesky" rel="noopener" style="margin-right: 15px;" target="_blank">
+              <img src="./assets/github-1.svg" alt="github logo"/>
+            </a>
+            <a href="https://www.linkedin.com/in/leonardo-de-freitas-galesky-6aa84567/" rel="noopener" target="_blank">
+              <img src="./assets/linkedin-1.svg" alt="linkedin logo"/>
+            </a>
           </div>
           <div class="col-md-4 offset-md-2">
             <div class="personal-image"></div>
@@ -51,44 +56,30 @@
       <section>
         <div class="row section-padding">
           <div class="col-md-6">
-            <p class="green-text section-tag">
-              Technologies
-            </p>
+            <p class="green-text section-tag">Technologies</p>
             <h2 class="section-title">
-              Technologies I’ve been working with recently
+              Technologies I've been working with recently
             </h2>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4">
-            <p class="dark-grey">
-              Javascript & TypeScript
-            </p>
+            <p class="dark-grey">Javascript & TypeScript</p>
           </div>
           <div class="col-md-4">
-            <p class="dark-grey">
-              AWS and some GCP
-            </p>
+            <p class="dark-grey">AWS and some GCP</p>
           </div>
           <div class="col-md-4">
-            <p class="dark-grey">
-              HTML & (S)CSS + Angular
-            </p>
+            <p class="dark-grey">HTML & (S)CSS + Angular</p>
           </div>
           <div class="col-md-4">
-            <p class="dark-grey">
-              Python
-            </p>
+            <p class="dark-grey">Python</p>
           </div>
           <div class="col-md-4">
-            <p class="dark-grey">
-              Node.js + Nest.js
-            </p>
+            <p class="dark-grey">Node.js + Nest.js</p>
           </div>
           <div class="col-md-4">
-            <p class="dark-grey">
-              Rust
-            </p>
+            <p class="dark-grey">Rust</p>
           </div>
         </div>
       </section>
@@ -96,18 +87,16 @@
       <section>
         <div class="row section-padding">
           <div class="col-md-6">
-            <p class="blue-text section-tag">
-              Projects
-            </p>
-            <h2 class="section-title">
-              Some Things I've Built
-            </h2>
+            <p class="blue-text section-tag">Projects</p>
+            <h2 class="section-title">Some Things I've Built</h2>
           </div>
         </div>
         <div class="row">
           <div class="col-md-8">
-            <div style="background: url('./assets/nestjs.png');" class="project-image ">
-            </div>
+            <div
+              style="background: url('./assets/nestjs.png')"
+              class="project-image"
+            ></div>
           </div>
           <div class="col-md-4">
             <p class="dark-grey project-title">
@@ -120,23 +109,152 @@
             </p>
           </div>
           <div class="col-md-8">
-            <div style="background: url('./assets/demo.jpg');" class="project-image ">
-            </div>
+            <div
+              style="background: url('./assets/demo.jpg')"
+              class="project-image"
+            ></div>
           </div>
           <div class="col-md-4">
-            <p class="dark-grey project-title">
-              Prefeituras.net
-            </p>
+            <p class="dark-grey project-title">Prefeituras.net</p>
             <p class="project-description">
               Leading the tech team expanding a SaaS software that eliminates
               paper processes in the public administration. Today citizen
               requests are all done on paper, making the process slow, expensive
-              and bad for everyone. - We help them transition to digital and
-              make everything go super fast.
+              and bad for everyone. We help them transition to digital and make
+              everything go super fast.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="row section-padding">
+          <div class="col-md-6">
+            <p class="orange-text section-tag">
+              Previous and current positions
+            </p>
+            <h2 class="section-title">Where I've Worked</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="dark-grey job-title">
+              Chief Technology Officer @ Prefeituras.net
+            </p>
+            <p class="orange-text section-tag">Oct 2017 - Present</p>
+          </div>
+          <div class="col-md-6">
+            <p>
+              I started as a Software Developer and I'm now leading an amazing
+              team reinventing government interaction. As the Technical Leader
+              at an early stage govtech startup, I currently lead the efforts
+              on software development and architecture in a highly regulated
+              industry.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p>
+              Working with a variety of different languages and frameworks such
+              as JavaScript, Python, TypeScript, Angular, NodeJS, NestJS,
+              Serverless and more AWS services.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <hr />
+          </div>
+          <div class="col-md-2" style="cursor: pointer">
+            <p
+              class="toggle-message"
+              id="positiontoggle"
+              onclick="togglePositions()"
+            >
+              See more
+            </p>
+          </div>
+          <div class="col-md-5">
+            <hr />
+          </div>
+        </div>
+
+        <div class="row" id="olderpositions" style="display: none">
+          <div class="col-md-12">
+            <p class="dark-grey job-title">
+              College Professor @ Assis Gurgacz Uni.
+            </p>
+            <p class="orange-text section-tag">Jan 2020 - Jul 2020</p>
+          </div>
+          <div class="col-md-6">
+            <p>
+              Taught classes in Introduction to Software Engineering and the
+              Technology Industry
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p>
+              Taught tools for prototyping and development such as Visual
+              Studio, Figma and others
+            </p>
+          </div>
+          <div class="col-md-12">
+            <p class="dark-grey job-title">Business Analyst @ Stone CO</p>
+            <p class="orange-text section-tag">Jul 2017 - Oct 2017</p>
+          </div>
+          <div class="col-md-6">
+            <p>
+              I was a member of the expansion team on Parana State, helping to
+              acquire new clients and to train my colleagues on the SalesForce
+              platform as a member of the 'JEDI ' team (the company was one of
+              the top 3 clients of SalesForce at the time)
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p>
+              Stone is a payments acquirer, licensed by VISA and Mastercard to
+              accredit merchants, process and authorize credit card
+              transactions. NASDAQ:STNE;
+            </p>
+          </div>
+          <div class="col-md-12">
+            <p class="dark-grey job-title">Developer - Founder @ Inovaticket</p>
+            <p class="orange-text section-tag">Jan 2016 - Jun 2017</p>
+          </div>
+          <div class="col-md-6">
+            <p>
+              I was on still on college and had just read Eric Ries' - Lean
+              Startup when I began a night-life gamification app with 2 other
+              more experienced developers.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p>
+              We built on Postgres, JAVA, AngularJS, and Ionic, all hosted on
+              AWS.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="row section-padding">
+          <div class="col-md-6">
+            <p class="green-text section-tag">Reach Out</p>
+            <h2 class="section-title">Get in Touch</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="dark-grey">
+              E-mail me at: leonardo.galesky@gmail.com or send me a messsage at
+              <img src="./assets/linkedin-1.svg" alt="linkedin logo" style="padding-bottom: 12px;" />
             </p>
           </div>
         </div>
       </section>
     </body>
   </div>
+  <div style="height: 500px;">
+
+  </div>
 </html>
+
+<script src="script.js"></script>

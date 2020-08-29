@@ -1,4 +1,8 @@
 body {
+  text-decoration: none;
+}
+
+body {
   font-family: "Lato", "Helvetica";
   letter-spacing: 0.2px;
 }
@@ -16,7 +20,11 @@ body {
 }
 
 .green-text {
-  color: #018786;
+  color: #006464;
+}
+
+.orange-text {
+  color: #c44c35;
 }
 
 .personal-image {
@@ -73,3 +81,19 @@ p {
   background-position: center;
   border-radius: 15px;
 }
+
+.job-title {
+  font-size: 30px;
+  color: #212353;
+  margin-bottom: 0px;
+}
+
+.toggle-message {
+  text-align: center;
+  font-size: 18px;
+}
+
+.toggle-message:hover {
+  font-weight: 600;
+}
+
